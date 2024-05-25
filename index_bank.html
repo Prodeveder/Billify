@@ -16,32 +16,59 @@
         />
       </svg>
 
-	  <span>Bilify</span>
+      <span>Bilify</span>
     </div>
 
-	<div class="form__container">
-		<div class="form__header">Few questions before you get started</div>
+    <div class="form__container">
+      <div class="form__header">Few questions before you get started</div>
 
-		<form action="index_bank.html" class="onboarding">
-			<div class="form__item">
-				<label for="AccountNumber">Account Number</label>
-				<input class="input" type="text" id="" name="AccountNumber" placeholder="10 digits">
-			</div>
-			<div class="form__item">
-				<label for="Bank">Bank</label>
-                <select class="form__select">
-                    <option value="absa">ABSA</option>
-                    <option value="fnb">FNB</option>
-                    <option value="standard_bank">Standard Bank</option>
-                    <option value="nedbank">Nedbank</option>
-                </select>
-			</div>
+      <form action="login.html" class="onboarding">
+        <div class="form__item">
+          <label for="AccountNumber">Account Number</label>
+          <input
+            class="input"
+            type="text"
+            id=""
+            name="AccountNumber"
+            placeholder="10 digits"
+          />
+        </div>
+        <div class="form__item">
+          <label for="Bank">Bank</label>
+          <select class="form__select">
+            <option value="absa">ABSA</option>
+            <option value="fnb">FNB</option>
+            <option value="standard_bank">Standard Bank</option>
+            <option value="nedbank">Nedbank</option>
+          </select>
+        </div>
+
+        <div class="form__item">
+          <label for="email">Email</label>
+          <input class="input" type="text" id="" name="email" placeholder="example@gmail.com">
+        </div>
+        <div class="form__item">
+          <label for="phoneNumber">Phone Number</label>
+          <input class="input" type="text" id="" name="phoneNumber" placeholder="e.g 025 548 362">
+        </div>
+  
+        <div class="form__item">
+          <label for="password">Password</label>
+          <input class="input" type="password" id="" name="password" placeholder="enter secure password">
+        </div>
 
 
+        <button type="submit" class="submit">Done</button>
 
-
-			<button type="submit" class="submit">Next</button>
-		  </form> 
-	</div>
+        <a href="index.html" class="back">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path
+              d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+            />
+          </svg>
+          Previous
+        </a>
+      </form>
+    </div>
   </body>
 </html>
